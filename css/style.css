@@ -85,7 +85,10 @@ input[type="password"]:focus,
 input[type="number"]:focus,
 input[type="tel"]:focus,
 textarea:focus,
-select:focus {}
+select:focus {
+	border: 3px solid #bd1962;
+	outline: none;
+}
 
 textarea {}
 
@@ -131,8 +134,4 @@ textarea {}
 	letter-spacing: -0.017em;
 	margin-bottom: 0;
 	line-height: 1.5;
-}
-
-.ba-row :focus~label {
-	top: 0;
 }
