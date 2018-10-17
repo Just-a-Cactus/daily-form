@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Daily Form</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="Daily Form" />
+	<link rel="icon" href="favicon.png" />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+	<main>
+		<form class="ba-registration-form" action="#" method="POST">
+			<img src="./img/key.png" alt="key">
+			<h1 class="ba-registration-form__title">Create your free account</h1>
+			<p class="ba-registration-form__login">Come and join our cool and amazing community, fill in your details to get
+				started. Already have an account?
+				<a href="#">Log in.</a></p>
+			<div class="ba-row">
+				<label for="first-name" class="ba-col-6 ba-title-of-input ba-title-of-input--first">First name</label>
+				<label for="last-name" class="ba-col-6 ba-title-of-input ba-title-of-input--first">Last name</label>
+				<input required type="text" class="ba-col-6" id="first-name" name="first-name">
+				<input required type="text" class="ba-col-6" id="last-name" name="last-name">
+			</div>
+			<label for="email" class="ba-col-6 ba-title-of-input">Email address</label>
+			<input required class="ba-col-12" type="email" name="email" id="email">
+			<label for="password" class="ba-col-6 ba-title-of-input">Password</label>
+			<input required class="ba-col-12" type="password" name="password" id="password">
+			<button class="ba-col-12" type="submit">Sign up for free</button>
+			<p class="ba-registration-form__rules">By clicking on “Sign up for free”, you agree to the <a href="#">Terms of
+					Service</a> and the <a href="#">Privacy Policy</a></p>
+		</form>
+	</main>
+</body>
+
+</html>

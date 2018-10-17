@@ -1,0 +1,138 @@
+body {
+	background: #ff512f;
+	background: -moz-linear-gradient(45deg, #ff512f 0%, #dd2476 100%);
+	background: -webkit-linear-gradient(45deg, #ff512f 0%, #dd2476 100%);
+	background: linear-gradient(45deg, #ff512f 0%, #dd2476 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff512f', endColorstr='#dd2476', GradientType=1);
+	font: 400 13px/1.3 Arial, sans-serif;
+	color: #797b7f;
+}
+
+.ba-registration-form {
+	max-width: 460px;
+	background-color: white;
+	margin: 61px auto 0;
+	padding: 27px 30px 58px;
+	border-radius: 4px;
+	position: relative;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Layout */
+.ba-container {
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+	color: #ea355a;
+	text-decoration: none;
+	transition: color .1s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+	display: inline-block;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	box-shadow: 0px 3px 0px 0px #bd1962;
+	background-color: #ea355a;
+	border: 0;
+	border-radius: 4px;
+	padding: 13.5px 0;
+	margin-bottom: 10px;
+}
+
+a:hover {
+	color: #9b1853;
+	text-decoration: underline;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover {
+	background-color: #dd2476;
+	box-shadow: 0px 3px 0px 0px #9b1853;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	height: 40px;
+	border-radius: 4px;
+	background-color: #f0f0f0;
+	border: 0;
+	padding: 0 10px;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {}
+
+textarea {}
+
+.ba-registration-form__title {
+	margin: 0 0 10px 1px;
+	padding: 0 0 0 5px;
+	display: inline-block;
+	font-size: 24px;
+	line-height: 1;
+	position: relative;
+	top: -3px;
+	letter-spacing: -0.004em;
+	color: #1b1c1d;
+}
+
+.ba-registration-form__login a {
+	text-decoration: underline;
+}
+
+.ba-registration-form__login {
+	padding: 0;
+	margin: 0;
+	line-height: 1.55;
+	letter-spacing: 0.015em;
+	margin-bottom: 15px;
+}
+
+.ba-title-of-input {
+	position: relative;
+	top: 26px;
+	left: 15px;
+}
+
+.ba-title-of-input--first {
+	top: 28px;
+}
+
+.ba-registration-form [type="password"] {
+	margin-bottom: 13px;
+}
+
+.ba-registration-form__rules {
+	letter-spacing: -0.017em;
+	margin-bottom: 0;
+	line-height: 1.5;
+}
+
+.ba-row :focus~label {
+	top: 0;
+}
